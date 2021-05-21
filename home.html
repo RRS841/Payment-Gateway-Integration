@@ -1,0 +1,175 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("donate.jpeg");
+  background-size:1500px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  /* background: #1abc9c; */
+  color: white;
+}
+.header h1 {
+    padding-top: 26px;
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: purple;
+  opacity: 0.5;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: rgb(247, 29, 29);
+  color: black;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(10, 10, 10);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0ec9c9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(248, 50, 0);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  color:#ddd
+}
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  /* background-color: white; */
+  padding: 20px;
+  color: #ddd;
+}
+
+.footer {
+  padding: 6px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Payment Gateway Integration | Our Website</h1>
+</div>
+<div class="navbar">
+  <a href="about.html" class="right"><strong>ABOUT US</strong></a>
+  <a href="payment.html" class="right"><strong>DONATE</strong></a>
+  </div>
+<div class="row">
+  <div class="side">
+    <h2 style="font-style:inherit; color: rgb(11, 227, 235);">Online Donation</h2>
+    <center><h1 style="color:#00FFFF;">“Remember that the happiest people are not those getting more, but those giving more.” - <i>―H. Jackson Brown Jr.</i></h1></center>
+    <br>
+    <p style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;"><h1 style="color:white;"><strong>
+      😇 Spark Foundation wishes health & safety for you, your family and your friends. 😇 </strong></p>
+    <br>
+    <br>
+    <p><strong>Note :</strong></p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We shall equip each SOS Children'sVillage with Oxygen concentrators.</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will supply of Covid/ medical kit to 220 family homes across India (Beneficiaries more 2200 children & 250 mothers and aunts)
+</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will Supply of Covid / Medical kit to affected 800 families in community (Beneficiaries 800 caregivers and more than 2500 children).</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will reach out to provide Dry Ration supplies for 3 months to vulnerable families in communities.</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will work towards Linking families with State and Centre sponsored Welfare Schemes
+</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will work towards rebuilding the lives through Livelihood assistance.</p>
+    <p style="font-size:20px"><h1 style="color:white;">>> We will ensure safe and protected environment for children who have parents / families suffering / lost lives due to Covid-19 under our short term and long term stay programmes.</p></p>    <!-- <p>>> Please feel free to reach out to us to know more ☻</p> -->
+
+  </div>
+</div>
+
+<div>
+  <center><button type="button"><a href="payment.html">DONATE</a></button></center>
+</div>
+
+<div class="footer">
+  <h2>The Spark Foundation Project</h2>
+  <p style="font-size: medium;">Task 3 by ROHAN SONAR</p>
+</div>
+</body>
+</html>
